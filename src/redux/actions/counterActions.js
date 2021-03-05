@@ -7,7 +7,7 @@ export const increaseCounter = () => ({
 
 })
 
-export const decraseCounter = () => ({
+export const decreaseCounter = () => ({
 
     type: actionTypes.DECREASE_COUNTER,
     payload: 1
